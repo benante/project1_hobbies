@@ -1,0 +1,106 @@
+/* BODY, HEADER, FOOTER and DIVS*/
+
+body {
+    background-color: #06283D;
+    text-align: center;
+    color: #DFF6FF;
+    margin: 0;
+}
+
+header {
+    background-color: #47B5FF;
+    height: 150px;
+    position: relative;
+}
+
+.central {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.intro {
+    margin: 60px auto;
+    background-color: #06283D;
+}
+
+.hobby {
+    width: 50%;
+    margin: auto;
+}
+
+#date {
+    color: #DFF6FF;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+footer {
+    height: 100px;
+    background-color: #256D85;
+    position: relative;
+    padding: 20px;
+}
+
+
+/* LETTERS , LISTS & LINES */
+
+h1 {
+    color: #DFF6FF;
+}
+
+
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+ul {
+    font-size: large;
+    margin-top: 0px;
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    font-style: italic;
+    color: #DFF6FF;
+    text-decoration: none;
+}
+
+.middle_line {
+    border-color: #256D85;
+    width: 50%;
+}
+
+.question {
+    margin-top: 42px;
+}
+
+
+/* IMGs */
+
+.profile-pic {
+    width: 450px;
+    border-radius: 10%;
+}
+
+.pic_hobbies {
+    width: 150px;
+}
+
+.small_pic {
+    width: 65px;
+}
